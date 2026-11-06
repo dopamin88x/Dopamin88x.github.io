@@ -1,1 +1,116 @@
 
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Cá Nhân | Dopamin88x</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            text-align: center;
+        }
+
+        .avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #38bdf8;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 14px rgba(56, 189, 248, 0.3);
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .bio-text {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            margin-bottom: 24px;
+            line-height: 1.5;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .link-card {
+            background-color: #1e293b;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 20px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border: 1px solid #334155;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .link-card:hover {
+            background-color: #334155;
+            border-color: #38bdf8;
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            margin-top: 32px;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Ảnh đại diện (Thay link ảnh của bạn vào đây) -->
+        <img class="avatar" src="https://www.facebook.com/share/1A8ScowvTp/?mibextid=wwXIfr" alt="Avatar">
+
+        <!-- Tên cá nhân -->
+        <h1>Dopamin88x</h1>
+
+        <!-- Dòng giới thiệu ngắn -->
+        <p class="bio-text">Chào mừng bạn đến với trang cá nhân của tôi ✨<br>Developer & Content Creator</p>
+
+        <!-- Danh sách liên kết -->
+        <div class="links">
+            <a href="https://facebook.com" class="link-card" target="_blank">Facebook</a>
+            <a href="https://instagram.com" class="link-card" target="_blank">Instagram</a>
+            <a href="https://tiktok.com" class="link-card" target="_blank">TikTok</a>
+            <a href="https://github.com/dopamin88x" class="link-card" target="_blank">GitHub Profile</a>
+            <a href="mailto:email@example.com" class="link-card">Gửi Email Liên Hệ</a>
+        </div>
+
+        <div class="footer">
+            © 2026 Dopamin88x. All rights reserved.
+        </div>
+    </div>
+
+</body>
+</html>
